@@ -1,0 +1,35 @@
+.cardlist{
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.maincard{
+    border: 1px solid rgb(48, 116, 135);
+    background-color: #a518dc;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.maincard:hover{
+    transform: scaleZ(200);
+    background-color: #1e8ed3;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+button{
+    padding: 10px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+h1{
+    font-family: 'Bigelow rules';
+    font-size: 72px;
+    color: #0ccac4;
+}
