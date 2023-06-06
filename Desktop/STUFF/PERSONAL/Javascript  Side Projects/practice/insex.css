@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+
+}
+li{
+    padding: 2rem;
+    border: 1px solid;
+    margin: 2rem;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    
+    justify-content: space-between;
+}
+nav{
+    background-color: aquamarine;
+}
